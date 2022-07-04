@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url('/images/backgrounds/signup-bg-1.jpg') no-repeat fixed; 
+  background-size: cover;
+  background-position: center;
+
+
+
+  display: flex;
+justify-content: center;
+}
+
+.content {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+/* leftside */
+
+.logo {
+  width:  500px;
+  height: 500px;
+  background:linear-gradient(to top, rgba(157, 140, 14, 0.808), rgba(255, 255, 255, 0.808), rgba(255, 255, 255, 0.836), rgba(255, 255, 255, 0.466), rgba(157, 140, 14, 0.705));
+  margin: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo img{
+
+}
+
+
+
+/* right side */
+
+.form {
+  width: 500px;
+  height: 500px;
+  /* background-color: aquamarine; */
+  margin: 5px;
+  box-sizing: border-box;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+form {
+  width: 90%;
+  background-color: rgba(161, 163, 161, 0.596);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 90%;
+  padding-top: 40px;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+.form h1 {
+  text-align: center;
+font-weight: bold;
+}
+
+input {
+  padding: 5px 5px 5px 8px;
+  line-height: 25px;
+  margin: 10px auto;
+  font-size: 15px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid rgb(222, 222, 224);
+}
+input[type="submit"] {
+  width: 200px;
+  background-color: rgb(157, 140, 14);
+font-weight: bold;
+  border: 1px solid rgb(157, 140, 14);
+
+
+}
+
+input:hover {
+  border-color: rgb(157, 140, 14);
+  box-shadow: 0px 2px 9px 2px rgba(0, 0, 0, 0.3);
+}
+
+input:focus{
+  box-shadow: 0px 5px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"]:hover {
+  background-color: #f2f2f2;
+  border-color: rgb(157, 140, 14);
+  box-shadow: 0px 2px 9px 2px rgba(0, 0, 0, 0.3);
+}
+
